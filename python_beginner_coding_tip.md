@@ -15,9 +15,10 @@ def 함수명():
 ## 파라메터
 ```
 # 함수정의
+
 def 함수명(val1, val2):
   print(val1 + val2)
-  
+
 # 함수호출
 함수명(10, 20)
 ```
@@ -42,5 +43,27 @@ v1 = int("10")
 v1 = float("0.1")
 ```
 ## 반복문 
+
+for 문
+```
+# 0 ~ 9까지 1증가로 출력
+for num in range(0, 10 + 1):
+  print(num)
+
+# 0, 100까지 2증가로 출력
+for num in range(0, 100 + 1, 2):
+  print(num)
+```
+
+## format 형식
+
+".format()" 사용 방법
+문자열 내에 '{}'(중괄호)의 문자를 대체한다.
+```
+msg = "{}, {}".format("Hi, ", "Ed")
+printMsg()
+
+> Hi, Ed
+```
 
 
